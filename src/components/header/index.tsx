@@ -9,13 +9,17 @@ export function Header() {
                 </div>
 
                 <nav>
-                    <ul className="flex items-center justify-center gap-2">
+                    <ul className="flex items-center justify-center gap-3">
                         <li>
                             <Link href="/">Home</Link>
                         </li>
 
                         <li>
                             <Link href="/posts">Posts</Link>
+                        </li>
+
+                        <li>
+                            <Link href="/teste">Teste</Link>
                         </li>
 
                         <li>
