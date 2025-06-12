@@ -32,6 +32,9 @@ export default async function PostsPage() {
 
         const userId = formData.get('userId')
 
+        const response = await fetch(`https://dummyjson.com/posts/user/${userId}`);
+        const data: ResponseProps = await response.json();
+
         console.log(userId)
     }
 
