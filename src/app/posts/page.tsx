@@ -24,7 +24,7 @@ export default async function PostsPage() {
         const response = await fetch('https://dummyjson.com/posts');
         const data: ResponseProps = await response.json();
 
-        console.log(data.posts)
+        console.log(data)
     }
 
     async function handleSearchUser(formData: FormData) {
